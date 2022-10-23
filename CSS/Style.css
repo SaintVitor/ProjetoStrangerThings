@@ -1,0 +1,92 @@
+h1{
+	
+	color: #ffff;
+	text-align: center;
+	text-shadow: red -2px 0, cyan 2px 0; /*Efeito "glitch"*/
+
+	font-family: Teko,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+	font-size: 1000;
+    /*color: inherit;*/
+    text-rendering: optimizeLegibility;
+	
+
+
+}	
+
+body{
+
+	background-image: url(https://i.pinimg.com/originals/a6/88/95/a68895fc20900da3273cec2f4a153b05.jpg);
+	/*background-repeat: no-repeat ;	
+	background-size: cover; /*Para ficar uma imagem unica e sem repetição*/
+
+}
+
+.menu{
+
+	margin: 30px auto;
+	width: 900px;
+	text-align: center;
+}
+
+.menu a{
+
+	color: initial;
+
+	text-decoration: none;
+
+	border: 2px solid #8a8888;
+	
+	border-style: solid;
+
+	font-size: 20px;
+	
+	margin: 0px 10px;
+
+}
+
+
+.login form{
+
+	text-align: center;
+	color: #8B008B;
+}
+
+.login table{
+	border: 1;
+	text-decoration: none ;
+	margin-left: 950px;
+	color: #8B008B;
+}
+
+p{
+
+	color: white;
+
+	/*background: rgba(255, 255, 255, 0.1); /efeito de vidro desfocado
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);*/
+}
+
+.artigo p{
+
+	color:#FF0000;
+	text-align: center;
+	width: 50%;
+	margin: 40px auto;
+	font-style: italic;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+
+.photos table{
+
+	margin-left: 100  auto;
+	color: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.1); /*efeito de vidro desfocado*/
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	 
+}
