@@ -1,72 +1,86 @@
-h1{
-	
-	color: #ffff;
-	text-align: center;
-	text-shadow: red -2px 0, cyan 2px 0; /*Efeito "glitch"*/
+*{
+	margin: 0;
+	padding: 0;
 
-	font-family: Teko,Arial,Helvetica,sans-serif;
-    font-style: normal;
-    font-weight: 1000;
-	font-size: 1000;
-    /*color: inherit;*/
-    text-rendering: optimizeLegibility;
-	
-
-
-}	
+}
 
 body{
 
 	background-image: url(https://i.pinimg.com/originals/a6/88/95/a68895fc20900da3273cec2f4a153b05.jpg);
-	/*background-repeat: no-repeat ;	
-	background-size: cover; /*Para ficar uma imagem unica e sem repetição*/
+	/*background-image: url('../Imagens/fundo.jpg'); /*paga pegar imagem de uma pasta*/
+	/*background-repeat: no-repeat; */
+	background-size: contain; /*Para ficar uma imagem unica e sem repetição*/
+	background-attachment: fixed;
 
 }
 
-.menu{
+h1{
+	
+	background: linear-gradient(270deg, #3f5efb, #A30A0A);
+	background-clip: inherit;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	/*text-shadow: red -2px 0, cyan 2px 0; /*Efeito "glitch"*/
+	font-size: 50px;
+	font-family: 'Codystar',cursive;
+    font-style: normal;
+    font-weight: 1000;
+	font-size: 1000;
+    text-rendering: optimizeLegibility;
+}
 
+.menu{
+	position: relative;
 	margin: 30px auto;
 	width: 900px;
 	text-align: center;
+	
 }
 
 .menu a{
 
-	color: initial;
-
+	color: white;
 	text-decoration: none;
-
-	border: 2px solid #8a8888;
-	
-	border-style: solid;
-
+	border: 2px solid #AE1F00;
+	border-radius: 5px;
 	font-size: 20px;
-	
 	margin: 0px 10px;
+}
+
+.menu a:last-of-type{
+	color: #8B008B;
 
 }
+
+a:visited{
+
+	color: rgb(150, 150, 150);
+}
+/*.bg {
+	width: 100%;
+	margin: 0 auto;
+	height: 30vw;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url('../Imagens/mind.png');
+	background-color: slategrey; 
+} Efeito paralax*/
 
 
 .login form{
 
 	text-align: center;
 	color: #8B008B;
+	display: block;
+	text-align: center;
+	margin:auto;
+	
 }
 
-.login table{
-	border: 1;
-	text-decoration: none ;
-	margin-left: 950px;
-	color: #8B008B;
-}
+.input:focus{
 
-p{
-
-	color: white;
-
-	/*background: rgba(255, 255, 255, 0.1); /efeito de vidro desfocado
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);*/
+	background-color: #A2A2A2;
 }
 
 .artigo p{
@@ -82,11 +96,24 @@ p{
 
 
 .photos table{
-
-	margin-left: 100  auto;
+	
+	border: 1px solid gray ;
+	border-collapse: collapse;
+	margin: 0 auto;
 	color: rgb(255, 255, 255);
 	background: rgba(255, 255, 255, 0.1); /*efeito de vidro desfocado*/
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
+	display: inline-block;
 	 
+}
+
+.photos{	
+	text-align: center;
+}
+
+.menu a:hover{
+		color: #8B008B;
+		font-size: 25px;
+
 }
